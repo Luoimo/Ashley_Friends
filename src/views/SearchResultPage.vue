@@ -44,7 +44,7 @@
     </div>
 </template>
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { ref } from 'vue'
 import { useRoute } from 'vue-router'
 import type { User } from '../models/user'
 import { getUserListByTags } from '../api/user'
