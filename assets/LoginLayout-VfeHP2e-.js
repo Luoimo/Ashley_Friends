@@ -1,0 +1,1 @@
+import{_ as o,r as t,c,o as a,a as n}from"./index-DWdODraP.js";const r={},s={class:"login-layout"};function _(i,d){const e=t("router-view");return a(),c("div",s,[n(e)])}const p=o(r,[["render",_],["__scopeId","data-v-80ac51e4"]]);export{p as default};
