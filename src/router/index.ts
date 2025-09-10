@@ -4,7 +4,7 @@
  * @Author: GaoMingze
  * @Date: 2025-08-29 11:52:54
  * @LastEditors: GaoMingze
- * @LastEditTime: 2025-09-07 21:57:47
+ * @LastEditTime: 2025-09-10 14:27:26
  */
 // src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router'
@@ -126,7 +126,7 @@ const router = createRouter({
     routes,
 })
 
-router.beforeEach((to, from, next) => {
+router.beforeEach((to, _from, next) => {
     const userStore = useUserStore()
     if (to.meta.title) {
         document.title = to.meta.title as string
